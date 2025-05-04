@@ -1,0 +1,62 @@
+﻿@model IEnumerable<BookMarket.Models.Publisher>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container">
+	<div class="row mb-4">
+		<div class="col-md-6 text-uppercase">
+            <h2>Publishers List</h2>
+		</div>
+        <div class="col-md-6 text-end">
+            <a asp-controller="Publishers" asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-circle"></i> Create</a>
+        </div>
+	</div>
+<hr />
+
+@if (Model.Count() > 0)
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.PubName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Address)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PubName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Address)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.PubId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.PubId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.PubId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+else
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center text-uppercase text-warning pt-4">No Records to Show</h2>
+            </div>
+        </div>
+    </div>
+}
+</div>
