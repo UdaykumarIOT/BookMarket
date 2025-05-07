@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7523B2E4-0BC2-45A4-A906-C93919AA2230}|BookMarket\\BookMarket.csproj|c:\\users\\91822\\desktop\\ssdb projects\\bookmarketapp\\bookmarket\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7523B2E4-0BC2-45A4-A906-C93919AA2230}|BookMarket\\BookMarket.csproj|solutionrelative:bookmarket\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "BookMarket\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "BookMarket\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T07:15:59.446Z",
+              "EditorCaption": ""
             }
           ]
         }
