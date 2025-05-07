@@ -5,16 +5,36 @@
 @inject UserManager<ApplicationUser> UserManager
 
 <ul class="navbar-nav">
-@if (SignInManager.IsSignedIn(User))
-{
-    <li class="nav-item">
-        <a id="manage" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @UserManager.GetUserName(User)!</a>
-    </li>
-    <li class="nav-item">
-        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-            <button id="logout" type="submit" class="nav-link btn btn-link text-dark border-0">Logout</button>
-        </form>
-    </li>
+	@if (SignInManager.IsSignedIn(User))
+	{
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle text-dark" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				@if (User.IsInRole("admin"))
+				{
+					<span class="badge bg-danger">Admin</span>
+				}
+				@if (User.IsInRole("seller"))
+				{
+					<span class="badge bg-warning">Seller</span>
+				}
+				@if (User.IsInRole("user"))
+				{
+					<span class="badge bg-success">User</span>
+				}
+				@User.Identity.Name
+			</a>
+			
+			<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+				<li>
+					<a class="dropdown-item text-dark" asp-area="Identity" asp-page="/Account/Manage/Index">Profile</a>
+				</li>
+				<li>
+					<form id="logoutForm" asp-area="Identity" asp-page="/Account/Logout" method="post">
+						<button type="submit" class="dropdown-item text-dark">Logout</button>
+					</form>
+				</li>
+			</ul>
+		</li>
 }
 else
 {
