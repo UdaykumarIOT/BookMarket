@@ -17,7 +17,6 @@ C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\obj\Debug\net9.0\B
 C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\obj\Debug\net9.0\scopedcss\bundle\BookMarket.styles.css
 C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\obj\Debug\net9.0\scopedcss\projectbundle\BookMarket.bundle.scp.css
-C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\obj\Debug\net9.0\compressed\9cx6xh31qc-b9sayid5wm.gz
 C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\obj\Debug\net9.0\compressed\txpk2s7a8m-61n19gt1b8.gz
 C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\obj\Debug\net9.0\compressed\em5tyxzi69-xtxxf3hu2r.gz
 C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\obj\Debug\net9.0\compressed\25ae1uvt3u-c2jlpeoesf.gz
@@ -432,3 +431,4 @@ C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\obj\Debug\net9.0\c
 C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
 C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\obj\Debug\net9.0\compressed\9cx6xh31qc-kq48kediva.gz

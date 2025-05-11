@@ -30,7 +30,7 @@ namespace BookMarket.Models
 
         [Display(Name = "Book Image")]
         [ValidateNever]
-        public string ImageUrl { get; set; } = string.Empty;
+        public string ImageUrl { get; set; } = String.Empty;
 
         [Required]
         [Range(0, double.MaxValue, ErrorMessage = "Price must be a positive number")]

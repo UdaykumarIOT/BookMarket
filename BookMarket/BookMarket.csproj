@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Shared\_Dropdown.cshtml" />
     <Content Remove="wwwroot\image\book\2e3082ea-6562-45bb-a5b5-51dec631ad7c.jpg" />
   </ItemGroup>
 

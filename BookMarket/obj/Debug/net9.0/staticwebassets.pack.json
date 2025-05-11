@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\image\\book\\23457427-d0d7-4607-bb64-17d8b490afed.jpg",
+      "PackagePath": "staticwebassets\\image\\book\\23457427-d0d7-4607-bb64-17d8b490afed.jpg"
+    },
+    {
       "Id": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\image\\book\\682d2b82-3045-4ca0-b749-af8dab2765e1.png",
       "PackagePath": "staticwebassets\\image\\book\\682d2b82-3045-4ca0-b749-af8dab2765e1.png"
     },
@@ -21,16 +25,8 @@
       "PackagePath": "staticwebassets\\image\\book\\7b659f1a-94a0-4f06-9c3e-ecbda5af9b84.webp"
     },
     {
-      "Id": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\image\\book\\912b2487-2274-4b8d-b9ce-747a2dcf440f.jpg",
-      "PackagePath": "staticwebassets\\image\\book\\912b2487-2274-4b8d-b9ce-747a2dcf440f.jpg"
-    },
-    {
       "Id": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\image\\book\\98f772f3-330a-4041-9d8d-c129cb88888a.jpg",
       "PackagePath": "staticwebassets\\image\\book\\98f772f3-330a-4041-9d8d-c129cb88888a.jpg"
-    },
-    {
-      "Id": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\image\\book\\a96c4ee4-1592-45a5-a799-62758941449f.jpg",
-      "PackagePath": "staticwebassets\\image\\book\\a96c4ee4-1592-45a5-a799-62758941449f.jpg"
     },
     {
       "Id": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\js\\site.js",

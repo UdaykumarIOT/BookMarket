@@ -1,31 +1,170 @@
+/* Base and Responsive Font Size */
 html {
-  font-size: 14px;
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+    scroll-behavior: smooth;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+    html {
+        font-size: 16px;
+    }
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+/* Button and Form Focus Styles */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    outline: none;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+/* Form Floating Labels Placeholder */
+.form-floating > .form-control::placeholder,
+.form-floating > .form-control-plaintext::placeholder {
+    color: var(--bs-secondary-color);
+    text-align: end;
+}
+
+.form-floating > .form-control:focus::placeholder,
+.form-floating > .form-control-plaintext:focus::placeholder {
+    text-align: start;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+.card-img-top {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+/* Footer */
+footer.footer {
+    background-color: var(--bs-light);
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* Dark Theme Overrides */
+[data-bs-theme="dark"] {
+    --bs-body-bg: #121212;
+    --bs-body-color: #e4e4e4;
+}
+
+    [data-bs-theme="dark"] body {
+        background-color: var(--bs-body-bg);
+        color: var(--bs-body-color);
+    }
+
+    [data-bs-theme="dark"] .card {
+        background-color: #1e1e1e;
+        color: #f0f0f0;
+        border: none;
+    }
+
+    [data-bs-theme="dark"] .footer {
+        background-color: #1a1a1a;
+        color: #999;
+    }
+
+/* Navbar Styling */
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+[data-bs-theme="dark"] .navbar {
+    background-color: #202020;
+    border-color: #444;
+}
+
+/* Navbar Links and Dropdowns */
+.navbar-brand,
+.nav-link,
+.dropdown-item {
+    transition: color 0.3s ease;
+}
+
+[data-bs-theme="dark"] .navbar-light .navbar-nav .nav-link,
+[data-bs-theme="dark"] .nav-link,
+[data-bs-theme="dark"] .dropdown-item {
+    color: #f8f9fa;
+}
+
+[data-bs-theme="light"] .navbar-light .navbar-nav .nav-link,
+[data-bs-theme="light"] .nav-link,
+[data-bs-theme="light"] .dropdown-item {
+    color: #000;
+}
+
+/* Dropdown Menu */
+.navbar .nav-item.dropdown .dropdown-menu {
+    background-color: #fff;
+    border: none;
+    color: #000;
+}
+
+.navbar .nav-item.dropdown .dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+[data-bs-theme="dark"] .navbar .nav-item.dropdown .dropdown-menu {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+[data-bs-theme="dark"] .navbar .nav-item.dropdown .dropdown-item:hover {
+    background-color: #495057;
+    color: #fff;
+}
+
+/* Theme Toggle Button */
+#themeToggle {
+    border: none;
+}
+
+/* Search Form Responsive Fix */
+@media (max-width: 576px) {
+    .form-control {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    form[role="search"] {
+        flex-direction: column;
+    }
+}
+:root {
+    --color-light-bg: #ffffff;
+    --color-dark-bg: #121212;
+    --color-light-text: #000000;
+    --color-dark-text: #f8f9fa;
+}
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid #258cfb;
 }

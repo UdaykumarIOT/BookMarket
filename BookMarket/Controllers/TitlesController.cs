@@ -133,6 +133,14 @@ namespace BookMarket.Controllers
                 await uploadedFiles[0].CopyToAsync(fileStream);
                 title.ImageUrl = $"/image/book/{newFileName}";
             }
+            else
+            {
+                var oldImage = await _context.Titles.AsNoTracking().FirstOrDefaultAsync(x => x.TitleId == id);
+                if (oldImage != null)
+                {
+                    title.ImageUrl = oldImage.ImageUrl;
+                }
+            }
 
             if (id != title.TitleId) return NotFound();
 
