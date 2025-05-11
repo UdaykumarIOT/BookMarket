@@ -90,24 +90,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\book\682d2b82-3045-4ca0-b749-af8dab2765e1.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\book\7b659f1a-94a0-4f06-9c3e-ecbda5af9b84.webp'))">
-      <SourceType>Package</SourceType>
-      <SourceId>BookMarket</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/BookMarket</BasePath>
-      <RelativePath>image/book/7b659f1a-94a0-4f06-9c3e-ecbda5af9b84.webp</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1xexsl2ht5</Fingerprint>
-      <Integrity>xTm2hDOUHgNZSb1/nhoxL1Uyh2XBmx2N+v2wBjsXEBU=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\book\7b659f1a-94a0-4f06-9c3e-ecbda5af9b84.webp'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\book\98f772f3-330a-4041-9d8d-c129cb88888a.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>BookMarket</SourceId>
@@ -125,6 +107,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\book\98f772f3-330a-4041-9d8d-c129cb88888a.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\book\aacdf2a3-53c2-4c7b-bcd7-c05a575dfc40.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BookMarket</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BookMarket</BasePath>
+      <RelativePath>image/book/aacdf2a3-53c2-4c7b-bcd7-c05a575dfc40.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>d50xvpz9vf</Fingerprint>
+      <Integrity>/41pdD1LwmXp1DTUpTc5XDO/XVnos44tTjMSs/HXuYw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\book\aacdf2a3-53c2-4c7b-bcd7-c05a575dfc40.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>

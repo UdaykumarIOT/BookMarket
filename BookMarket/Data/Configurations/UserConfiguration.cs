@@ -17,7 +17,7 @@ namespace BookMarket.Data.Configurations
                 Email = "admin@bookmarket.com",
                 NormalizedEmail = "ADMIN@BOOKMARKET.COM",
                 EmailConfirmed = true,
-                SecurityStamp = Guid.NewGuid().ToString("D")
+                SecurityStamp = "12345678-90ab-cdef-1234-567890abcdef",
             };
 
             var hasher = new PasswordHasher<ApplicationUser>();
