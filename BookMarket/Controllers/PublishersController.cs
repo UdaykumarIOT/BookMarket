@@ -61,6 +61,7 @@ namespace BookMarket.Controllers
                 publisher.PubId = Guid.NewGuid();
                 _context.Add(publisher);
                 await _context.SaveChangesAsync();
+                TempData["success"] = "Publisher created successfully!";
                 return RedirectToAction(nameof(Index));
             }
             return View(publisher);
@@ -100,17 +101,12 @@ namespace BookMarket.Controllers
                 {
                     _context.Update(publisher);
                     await _context.SaveChangesAsync();
+                    TempData["warning"] = "Publisher updated successfully!";
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!PublisherExists(publisher.PubId))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    if (!PublisherExists(publisher.PubId)) return NotFound();
+                    TempData["error"] = "An error occurred while updating the publisher. Please try again.";
                 }
                 return RedirectToAction(nameof(Index));
             }
@@ -144,9 +140,9 @@ namespace BookMarket.Controllers
             if (publisher != null)
             {
                 _context.Publishers.Remove(publisher);
+                await _context.SaveChangesAsync();
+                TempData["error"] = "Publisher deleted successfully!";
             }
-
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 

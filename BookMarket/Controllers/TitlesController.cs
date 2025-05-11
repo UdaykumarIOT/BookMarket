@@ -80,6 +80,7 @@ namespace BookMarket.Controllers
                 title.TitleId = Guid.NewGuid();
                 _context.Add(title);
                 await _context.SaveChangesAsync();
+                TempData["success"] = "Book added successfully!";
                 return RedirectToAction(nameof(Index));
             }
 
@@ -150,11 +151,12 @@ namespace BookMarket.Controllers
                 {
                     _context.Update(title);
                     await _context.SaveChangesAsync();
+                    TempData["warning"] = "Book updated successfully!";
                 }
                 catch (DbUpdateConcurrencyException)
                 {
                     if (!TitleExists(title.TitleId)) return NotFound();
-                    throw;
+                    TempData["error"] = "An error occurred while updating the book. Please try again.";
                 }
                 return RedirectToAction(nameof(Index));
             }
@@ -193,6 +195,7 @@ namespace BookMarket.Controllers
                 }
                 _context.Titles.Remove(title);
                 await _context.SaveChangesAsync();
+                TempData["error"] = "Book deleted successfully!";
             }
             return RedirectToAction(nameof(Index));
         }

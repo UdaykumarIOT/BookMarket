@@ -61,6 +61,7 @@ namespace BookMarket.Controllers
                 author.AuthId = Guid.NewGuid();
                 _context.Add(author);
                 await _context.SaveChangesAsync();
+                TempData["Success"] = "Author created successfully!";
                 return RedirectToAction(nameof(Index));
             }
             return View(author);
@@ -100,18 +101,14 @@ namespace BookMarket.Controllers
                 {
                     _context.Update(author);
                     await _context.SaveChangesAsync();
+                    TempData["warning"] = "Author updated successfully!";
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!AuthorExists(author.AuthId))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    if (!AuthorExists(author.AuthId)) return NotFound();
+                    TempData["error"] = "An error occurred while updating the Author. Please try again.";
                 }
+
                 return RedirectToAction(nameof(Index));
             }
             return View(author);
@@ -144,9 +141,9 @@ namespace BookMarket.Controllers
             if (author != null)
             {
                 _context.Authors.Remove(author);
+                await _context.SaveChangesAsync();
+                TempData["error"] = "Author deleted successfully!";
             }
-
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 

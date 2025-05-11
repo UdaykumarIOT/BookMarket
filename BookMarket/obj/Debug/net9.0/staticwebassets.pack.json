@@ -25,12 +25,20 @@
       "PackagePath": "staticwebassets\\image\\book\\98f772f3-330a-4041-9d8d-c129cb88888a.jpg"
     },
     {
-      "Id": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\image\\book\\aacdf2a3-53c2-4c7b-bcd7-c05a575dfc40.jpg",
-      "PackagePath": "staticwebassets\\image\\book\\aacdf2a3-53c2-4c7b-bcd7-c05a575dfc40.jpg"
+      "Id": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\image\\book\\cadb3215-dfe9-4148-a699-05706ddc2f62.jpg",
+      "PackagePath": "staticwebassets\\image\\book\\cadb3215-dfe9-4148-a699-05706ddc2f62.jpg"
+    },
+    {
+      "Id": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\image\\book\\fc635789-439e-4cae-8cf1-eea5ed7e3f58.jpg",
+      "PackagePath": "staticwebassets\\image\\book\\fc635789-439e-4cae-8cf1-eea5ed7e3f58.jpg"
     },
     {
       "Id": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\js\\theme-toggle.js",
+      "PackagePath": "staticwebassets\\js\\theme-toggle.js"
     },
     {
       "Id": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\lib\\bootstrap\\LICENSE",

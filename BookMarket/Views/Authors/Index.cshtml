@@ -17,38 +17,43 @@
 
     @if (Model.Count() > 0)
     {
-        <table class="table">
+        <table id="AuthTable" class="table table-bordered table-striped">
             <thead>
                 <tr>
-                    <th>
+                    <th class="text-center">
                         @Html.DisplayNameFor(model => model.AuthName)
                     </th>
-                    <th>
+                    <th class="text-center">
                         @Html.DisplayNameFor(model => model.PhoneNumber)
                     </th>
-                    <th>
-                        @Html.DisplayNameFor(model => model.Address)
-                    </th>
-                    <th></th>
+                    <th class="text-center">Action</th>
                 </tr>
             </thead>
             <tbody>
                 @foreach (var item in Model)
                 {
                     <tr>
-                        <td>
+                        <td width="20%" class="text-center">
                             @Html.DisplayFor(modelItem => item.AuthName)
                         </td>
-                        <td>
+                        <td width="20%" class="text-center">
                             @Html.DisplayFor(modelItem => item.PhoneNumber)
                         </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Address)
-                        </td>
-                        <td>
-                            <a asp-action="Edit" asp-route-id="@item.AuthId">Edit</a> |
-                            <a asp-action="Details" asp-route-id="@item.AuthId">Details</a> |
-                            <a asp-action="Delete" asp-route-id="@item.AuthId">Delete</a>
+                        <td class="d-flex align-items-center justify-content-center">
+                            <div class="w-75 btn-group" role="group">
+                                <a asp-action="Edit" asp-route-id="@item.AuthId"
+                                   class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="Edit">
+                                    <i class="bi bi-pencil-square"></i>
+                                </a>
+                                <a asp-action="Details" asp-route-id="@item.AuthId"
+                                    class="btn btn-info" data-toggle="tooltip" data-placement="top" title="Details">
+                                    <i class="bi bi-info-circle"></i>
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@item.AuthId"
+                                    class="btn btn-danger" data-toggle="tooltip" data-placement="top" title="Delete">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </div>
                         </td>
                     </tr>
                 }
@@ -67,3 +72,11 @@
         </div>
     }
 </div>
+
+@section Scripts {
+    <script>
+		$(document).ready(function () {
+			$('#AuthTable').DataTable();
+		});
+    </script>
+}

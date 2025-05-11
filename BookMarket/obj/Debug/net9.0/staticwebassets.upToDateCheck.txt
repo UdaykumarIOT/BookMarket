@@ -36,6 +36,7 @@ C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\wwwroot\lib\bootst
 C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
 C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
 C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\wwwroot\js\theme-toggle.js
 C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\wwwroot\lib\jquery\dist\jquery.min.map
 C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 C:\Users\91822\Desktop\SSDB projects\BookMarketApp\BookMarket\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
@@ -65,8 +66,10 @@ wwwroot\favicon.ico
 wwwroot\image\book\23457427-d0d7-4607-bb64-17d8b490afed.jpg
 wwwroot\image\book\682d2b82-3045-4ca0-b749-af8dab2765e1.png
 wwwroot\image\book\98f772f3-330a-4041-9d8d-c129cb88888a.jpg
-wwwroot\image\book\aacdf2a3-53c2-4c7b-bcd7-c05a575dfc40.jpg
+wwwroot\image\book\cadb3215-dfe9-4148-a699-05706ddc2f62.jpg
+wwwroot\image\book\fc635789-439e-4cae-8cf1-eea5ed7e3f58.jpg
 wwwroot\js\site.js
+wwwroot\js\theme-toggle.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

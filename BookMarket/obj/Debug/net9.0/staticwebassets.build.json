@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JhsSA25G3H6dChdDAt1+jkth0F9rseATH1UButS4Jwo=",
+  "Hash": "WvkswDMsnljoxnYIUgdxqWdBNhDowX/FZkyr/cbbQB8=",
   "Source": "BookMarket",
   "BasePath": "_content/BookMarket",
   "Mode": "Default",
@@ -2810,6 +2810,27 @@
       "OriginalItemSpec": "C:\\Users\\91822\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\obj\\Debug\\net9.0\\compressed\\lqrjpkdl8m-49uowqe694.gz",
+      "SourceId": "BookMarket",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/BookMarket",
+      "RelativePath": "js/theme-toggle#[.{fingerprint=49uowqe694}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\js\\theme-toggle.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "fc9io3dt30",
+      "Integrity": "Mezny/ljLUvdiFyu1cyFN9E+N5nxrVnnttluWLfc8Ek=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\js\\theme-toggle.js"
+    },
+    {
       "Identity": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\obj\\Debug\\net9.0\\compressed\\lr5hmrr0j7-493y06b0oq.gz",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
@@ -4133,12 +4154,12 @@
       "OriginalItemSpec": "wwwroot\\image\\book\\98f772f3-330a-4041-9d8d-c129cb88888a.jpg"
     },
     {
-      "Identity": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\image\\book\\aacdf2a3-53c2-4c7b-bcd7-c05a575dfc40.jpg",
+      "Identity": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\image\\book\\cadb3215-dfe9-4148-a699-05706ddc2f62.jpg",
       "SourceId": "BookMarket",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\",
       "BasePath": "_content/BookMarket",
-      "RelativePath": "image/book/aacdf2a3-53c2-4c7b-bcd7-c05a575dfc40#[.{fingerprint}]?.jpg",
+      "RelativePath": "image/book/cadb3215-dfe9-4148-a699-05706ddc2f62#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4147,11 +4168,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "d50xvpz9vf",
-      "Integrity": "/41pdD1LwmXp1DTUpTc5XDO/XVnos44tTjMSs/HXuYw=",
+      "Fingerprint": "e68nfld58p",
+      "Integrity": "2oPo2T/15OP9nlsNmohexN6xyIwfJywol7NlZsgCkDs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\book\\aacdf2a3-53c2-4c7b-bcd7-c05a575dfc40.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\book\\cadb3215-dfe9-4148-a699-05706ddc2f62.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\image\\book\\fc635789-439e-4cae-8cf1-eea5ed7e3f58.jpg",
+      "SourceId": "BookMarket",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\",
+      "BasePath": "_content/BookMarket",
+      "RelativePath": "image/book/fc635789-439e-4cae-8cf1-eea5ed7e3f58#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hzoijnj0f0",
+      "Integrity": "/S2mpOiL9klqTYjcCIz+DD/DnrsF4Jkp+nNYBNyFl1U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\book\\fc635789-439e-4cae-8cf1-eea5ed7e3f58.jpg"
     },
     {
       "Identity": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\js\\site.js",
@@ -4173,6 +4215,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\js\\theme-toggle.js",
+      "SourceId": "BookMarket",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\",
+      "BasePath": "_content/BookMarket",
+      "RelativePath": "js/theme-toggle#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "49uowqe694",
+      "Integrity": "2Cg01hQyf3/2fOuORNzo1kfmGN/qUvidgrWTmnT16qY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\theme-toggle.js"
     },
     {
       "Identity": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -15480,8 +15543,8 @@
       ]
     },
     {
-      "Route": "image/book/aacdf2a3-53c2-4c7b-bcd7-c05a575dfc40.d50xvpz9vf.jpg",
-      "AssetFile": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\image\\book\\aacdf2a3-53c2-4c7b-bcd7-c05a575dfc40.jpg",
+      "Route": "image/book/cadb3215-dfe9-4148-a699-05706ddc2f62.e68nfld58p.jpg",
+      "AssetFile": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\image\\book\\cadb3215-dfe9-4148-a699-05706ddc2f62.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15490,7 +15553,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1925265"
+          "Value": "89748"
         },
         {
           "Name": "Content-Type",
@@ -15498,11 +15561,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/41pdD1LwmXp1DTUpTc5XDO/XVnos44tTjMSs/HXuYw=\""
+          "Value": "\"2oPo2T/15OP9nlsNmohexN6xyIwfJywol7NlZsgCkDs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 14:37:24 GMT"
+          "Value": "Sun, 11 May 2025 21:22:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15512,21 +15575,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "d50xvpz9vf"
+          "Value": "e68nfld58p"
         },
         {
           "Name": "label",
-          "Value": "image/book/aacdf2a3-53c2-4c7b-bcd7-c05a575dfc40.jpg"
+          "Value": "image/book/cadb3215-dfe9-4148-a699-05706ddc2f62.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/41pdD1LwmXp1DTUpTc5XDO/XVnos44tTjMSs/HXuYw="
+          "Value": "sha256-2oPo2T/15OP9nlsNmohexN6xyIwfJywol7NlZsgCkDs="
         }
       ]
     },
     {
-      "Route": "image/book/aacdf2a3-53c2-4c7b-bcd7-c05a575dfc40.jpg",
-      "AssetFile": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\image\\book\\aacdf2a3-53c2-4c7b-bcd7-c05a575dfc40.jpg",
+      "Route": "image/book/cadb3215-dfe9-4148-a699-05706ddc2f62.jpg",
+      "AssetFile": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\image\\book\\cadb3215-dfe9-4148-a699-05706ddc2f62.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15535,7 +15598,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1925265"
+          "Value": "89748"
         },
         {
           "Name": "Content-Type",
@@ -15543,11 +15606,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/41pdD1LwmXp1DTUpTc5XDO/XVnos44tTjMSs/HXuYw=\""
+          "Value": "\"2oPo2T/15OP9nlsNmohexN6xyIwfJywol7NlZsgCkDs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 11 May 2025 14:37:24 GMT"
+          "Value": "Sun, 11 May 2025 21:22:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15557,7 +15620,89 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/41pdD1LwmXp1DTUpTc5XDO/XVnos44tTjMSs/HXuYw="
+          "Value": "sha256-2oPo2T/15OP9nlsNmohexN6xyIwfJywol7NlZsgCkDs="
+        }
+      ]
+    },
+    {
+      "Route": "image/book/fc635789-439e-4cae-8cf1-eea5ed7e3f58.hzoijnj0f0.jpg",
+      "AssetFile": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\image\\book\\fc635789-439e-4cae-8cf1-eea5ed7e3f58.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2404725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/S2mpOiL9klqTYjcCIz+DD/DnrsF4Jkp+nNYBNyFl1U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 21:20:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hzoijnj0f0"
+        },
+        {
+          "Name": "label",
+          "Value": "image/book/fc635789-439e-4cae-8cf1-eea5ed7e3f58.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/S2mpOiL9klqTYjcCIz+DD/DnrsF4Jkp+nNYBNyFl1U="
+        }
+      ]
+    },
+    {
+      "Route": "image/book/fc635789-439e-4cae-8cf1-eea5ed7e3f58.jpg",
+      "AssetFile": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\image\\book\\fc635789-439e-4cae-8cf1-eea5ed7e3f58.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2404725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/S2mpOiL9klqTYjcCIz+DD/DnrsF4Jkp+nNYBNyFl1U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 21:20:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/S2mpOiL9klqTYjcCIz+DD/DnrsF4Jkp+nNYBNyFl1U="
         }
       ]
     },
@@ -15893,6 +16038,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme-toggle.49uowqe694.js",
+      "AssetFile": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\obj\\Debug\\net9.0\\compressed\\lqrjpkdl8m-49uowqe694.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002169197397"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mezny/ljLUvdiFyu1cyFN9E+N5nxrVnnttluWLfc8Ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 19:46:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2Cg01hQyf3/2fOuORNzo1kfmGN/qUvidgrWTmnT16qY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "49uowqe694"
+        },
+        {
+          "Name": "label",
+          "Value": "js/theme-toggle.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Cg01hQyf3/2fOuORNzo1kfmGN/qUvidgrWTmnT16qY="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme-toggle.49uowqe694.js",
+      "AssetFile": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\js\\theme-toggle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Cg01hQyf3/2fOuORNzo1kfmGN/qUvidgrWTmnT16qY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 19:46:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "49uowqe694"
+        },
+        {
+          "Name": "label",
+          "Value": "js/theme-toggle.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Cg01hQyf3/2fOuORNzo1kfmGN/qUvidgrWTmnT16qY="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme-toggle.49uowqe694.js.gz",
+      "AssetFile": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\obj\\Debug\\net9.0\\compressed\\lqrjpkdl8m-49uowqe694.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mezny/ljLUvdiFyu1cyFN9E+N5nxrVnnttluWLfc8Ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 19:46:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "49uowqe694"
+        },
+        {
+          "Name": "label",
+          "Value": "js/theme-toggle.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mezny/ljLUvdiFyu1cyFN9E+N5nxrVnnttluWLfc8Ek="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme-toggle.js",
+      "AssetFile": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\obj\\Debug\\net9.0\\compressed\\lqrjpkdl8m-49uowqe694.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002169197397"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mezny/ljLUvdiFyu1cyFN9E+N5nxrVnnttluWLfc8Ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 19:46:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2Cg01hQyf3/2fOuORNzo1kfmGN/qUvidgrWTmnT16qY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Cg01hQyf3/2fOuORNzo1kfmGN/qUvidgrWTmnT16qY="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme-toggle.js",
+      "AssetFile": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\wwwroot\\js\\theme-toggle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Cg01hQyf3/2fOuORNzo1kfmGN/qUvidgrWTmnT16qY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 19:46:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Cg01hQyf3/2fOuORNzo1kfmGN/qUvidgrWTmnT16qY="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme-toggle.js.gz",
+      "AssetFile": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\obj\\Debug\\net9.0\\compressed\\lqrjpkdl8m-49uowqe694.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mezny/ljLUvdiFyu1cyFN9E+N5nxrVnnttluWLfc8Ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 19:46:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mezny/ljLUvdiFyu1cyFN9E+N5nxrVnnttluWLfc8Ek="
         }
       ]
     },

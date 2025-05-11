@@ -16,38 +16,49 @@
     <hr />
     @if (Model.Count() > 0)
     {
-        <table class="table">
+        <table id="TitleTable" class="table table-bordered table-striped">
             <thead>
                 <tr>
-                    <th>
+                    <th class="text-center">
                         @Html.DisplayNameFor(model => model.Name)
                     </th>
-                    <th>
+                    <th class="text-center">
                         @Html.DisplayNameFor(model => model.Price)
                     </th>
-                    <th>
+                    <th class="text-center">
                         @Html.DisplayNameFor(model => model.ImageUrl)
                     </th>
-                    <th></th>
+                    <th class="text-center">Action</th>
                 </tr>
             </thead>
             <tbody>
                 @foreach (var item in Model)
                 {
                     <tr>
-                        <td>
+                        <td width="20%" class="text-center">
                             @Html.DisplayFor(modelItem => item.Name)
                         </td>
-                        <td>
+                        <td width="20%" class="text-center">
                             @Html.DisplayFor(modelItem => item.Price)
                         </td>
-                        <td>
-                            <img src="@Html.DisplayFor(modelItem => item.ImageUrl)" alt="Image" width="150px;" />
+                        <td width="40%" class="text-center">
+                            <img src="@Html.DisplayFor(modelItem => item.ImageUrl)" alt="Image" style="width: 170px;" />
                         </td>
-                        <td>
-                            <a asp-action="Edit" asp-route-id="@item.TitleId">Edit</a> |
-                            <a asp-action="Details" asp-route-id="@item.TitleId">Details</a> |
-                            <a asp-action="Delete" asp-route-id="@item.TitleId">Delete</a>
+                        <td class="d-flex align-items-center justify-content-center">
+                            <div class="w-75 btn-group" role="group">
+                                <a asp-action="Edit" asp-route-id="@item.TitleId"
+                                   class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="Edit">
+                                    <i class="bi bi-pencil-square"></i>
+                                </a>
+                                <a asp-action="Details" asp-route-id="@item.TitleId"
+                                   class="btn btn-info" data-toggle="tooltip" data-placement="top" title="Details">
+                                    <i class="bi bi-info-circle"></i>
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@item.TitleId"
+                                   class="btn btn-danger" data-toggle="tooltip" data-placement="top" title="Delete">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </div>
                         </td>
                     </tr>
                 }
@@ -66,3 +77,11 @@
     }
 
 </div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#TitleTable').DataTable();
+        });
+    </script>
+}
