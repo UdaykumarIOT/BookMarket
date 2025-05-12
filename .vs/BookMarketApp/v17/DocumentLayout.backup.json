@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7523B2E4-0BC2-45A4-A906-C93919AA2230}|BookMarket\\BookMarket.csproj|c:\\users\\91822\\desktop\\ssdb projects\\bookmarketapp\\bookmarket\\views\\authors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7523B2E4-0BC2-45A4-A906-C93919AA2230}|BookMarket\\BookMarket.csproj|solutionrelative:bookmarket\\views\\authors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\Views\\Authors\\Delete.cshtml",
+              "RelativeDocumentMoniker": "BookMarket\\Views\\Authors\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\91822\\Desktop\\SSDB projects\\BookMarketApp\\BookMarket\\Views\\Authors\\Delete.cshtml",
+              "RelativeToolTip": "BookMarket\\Views\\Authors\\Delete.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T08:12:49.014Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"

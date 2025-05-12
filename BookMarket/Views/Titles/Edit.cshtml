@@ -48,13 +48,14 @@
                 <select asp-for="PubId" class="form-control" asp-items="ViewBag.PubId"></select>
                 <span asp-validation-for="PubId" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label asp-for="PubDate" class="control-label"></label>
                 <input asp-for="PubDate" class="form-control" type="date"/>
                 <span asp-validation-for="PubDate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-warning" />
+                <a asp-action="Index" class="btn btn-info">Back to List</a>
             </div>
         </form>
     </div>
@@ -64,10 +65,6 @@
             <img src="@Model.ImageUrl" width="100%"/>
         }
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
