@@ -1,0 +1,6 @@
+﻿@model decimal
+<h2>Checkout</h2>
+<p>Total: <strong>@Model</strong></p>
+<form method="post" action="/Cart/CheckoutConfirm">
+    <button type="submit" class="btn btn-primary">Pay with Dummy Payment</button>
+</form>

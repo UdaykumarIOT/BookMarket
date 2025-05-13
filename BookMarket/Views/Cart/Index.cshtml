@@ -1,0 +1,16 @@
+﻿@model List<CartItem>
+<h2>Your Cart</h2>
+<table class="table">
+    <thead><tr><th>Title</th><th>Qty</th><th>Action</th></tr></thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title.Name</td>
+                <td>@item.Quantity</td>
+                <td><a href="/Cart/Remove/@item.TitleId" class="btn btn-danger">Remove</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/Cart/Checkout" class="btn btn-success">Proceed to Checkout</a>
