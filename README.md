@@ -44,9 +44,10 @@ git clone https://github.com/UdaykumarIOT/BookMarket.git
 
 - The app will launch in your browser at https://localhost:[port]
   
-## TO login as admin
--Email : admin@bookmarket.com
--password : Admin@2025
+### TO login as admin
+
+- Email : admin@bookmarket.com
+- password : Admin@2025
 
 
 ✅ You're now running the BookMarket web app locally!
