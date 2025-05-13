@@ -14,35 +14,48 @@
     }
     else
     {
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
-            @foreach (var item in Model)
-            {
-                <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="@item.ImageUrl"
-                             class="card-img-top mx-auto d-block"
-                             style="width: 170px;"
-                             alt="@item.Name" />
-                        <div class="card-body text-center">
-                            <h5 class="card-title">@item.Name</h5>
-                            <p class="card-text text-muted">₹@item.Price.ToString("F2")</p>
-                            <a asp-controller="Titles"
-                               asp-action="Details"
-                               asp-route-id="@item.TitleId"
-                               class="btn btn-primary">
-                                View Details
-                            </a>
-                            <a asp-controller="Cart"
-                               asp-action="Add"
-                               asp-route-id="@item.TitleId"
-                               class="btn btn-primary">
-                                Add to Cart
-                            </a>
+        @if (Model.Count() > 0)
+        {
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                @foreach (var item in Model)
+                {
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="@item.ImageUrl"
+                            class="card-img-top mx-auto d-block"
+                            style="width: 170px; object-fit:fill;"
+                            alt="@item.Name" />
+                            <div class="card-body text-center">
+                                <h5 class="card-title">@item.Name</h5>
+                                <p class="card-text" style="color:tomato;">₹@item.Price.ToString("F2")</p>
+                                <a asp-controller="Titles"
+                                asp-action="Details"
+                                asp-route-id="@item.TitleId"
+                                class="btn btn-outline-info">
+                                    View Details
+                                </a>
+                                <a asp-controller="Cart"
+                                asp-action="Add"
+                                asp-route-id="@item.TitleId"
+                                class="btn btn-outline-success">
+                                    Add to Cart
+                                </a>
+                            </div>
                         </div>
                     </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center text-uppercase text-warning pt-4">No Records</h2>
+                    </div>
                 </div>
-            }
-        </div>
+            </div>
+        }
     }
 </div>
 

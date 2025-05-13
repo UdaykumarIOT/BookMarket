@@ -13,12 +13,12 @@ namespace BookMarket.Models
         [Required]
         [StringLength(200)]
         [Display(Name = "Book Name")]
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         [Required]
         [StringLength(100)]
         [Display(Name = "Book Type")]
-        public string type { get; set; }
+        public string? type { get; set; }
 
         [Required]
         [Display(Name = "Author")]

@@ -47,7 +47,7 @@
                                 <a class="nav-link" asp-controller="Authors" asp-action="Index">Authors</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" asp-controller="Titles" asp-action="Index">Titles</a>
+                                <a class="nav-link" asp-controller="Titles" asp-action="Index">Books</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" asp-controller="Sales" asp-action="Index">Sales</a>
@@ -87,9 +87,13 @@
                             </li>
                         }
                     </ul>
-                    <div class="nav-item mx-3">
-                        <a class="nav-link" asp-controller="Cart" asp-action="Index"><i class="bi bi-cart2" style="font-size: 22px;"></i></a>
-                    </div>
+                    @if (!User.IsInRole("admin"))
+                    {
+                        <div class="nav-item mx-3">
+                            <a class="nav-link" asp-controller="Cart" asp-action="Index"><i class="bi bi-cart2" style="font-size: 22px;"></i></a>
+                        </div>
+                    }
+                    
                     <button id="themeToggle" class="btn btn-outline-secondary me-2" title="Toggle theme">
                         <i class="bi bi-brightness-high-fill" id="themeIcon"></i>
                     </button>
@@ -108,7 +112,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2025 - BookMarket - <a asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2025 - BookMarket
         </div>
     </footer>
 

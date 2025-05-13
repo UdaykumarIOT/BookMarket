@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace BookMarket.Models
@@ -23,8 +24,16 @@ namespace BookMarket.Models
 
         public DateTime SaleDate { get; set; } = DateTime.UtcNow;
 
+        [Required]
+        public string? UserId { get; set; }
+
+        [ForeignKey(nameof(UserId))]
+        [ValidateNever]
+        public ApplicationUser? User { get; set; }
+
         [ForeignKey(nameof(TitleId))]
         [ValidateNever]
         public Title? Title { get; set; }
+
     }
 }

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BookMarket.Data;
 using BookMarket.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BookMarket.Controllers
 {
@@ -22,6 +23,7 @@ namespace BookMarket.Controllers
         }
 
         // GET: Titles
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Index()
         {
             var titles = _context.Titles.Include(t => t.Author).Include(t => t.Publisher);
@@ -43,6 +45,7 @@ namespace BookMarket.Controllers
         }
 
         // GET: Titles/Create
+        [Authorize(Roles = "admin")]
         public IActionResult Create()
         {
             PopulateDropdowns();
@@ -52,6 +55,7 @@ namespace BookMarket.Controllers
         // POST: Titles/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Create([Bind("Name,type,AuthId,Notes,ImageUrl,Price,PubId,PubDate")] Title title)
         {
             var uploadedFiles = HttpContext.Request.Form.Files;
@@ -89,6 +93,7 @@ namespace BookMarket.Controllers
         }
 
         // GET: Titles/Edit/5
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(Guid? id)
         {
             if (id == null) return NotFound();
@@ -103,6 +108,7 @@ namespace BookMarket.Controllers
         // POST: Titles/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(Guid id, [Bind("TitleId,Name,type,AuthId,Notes,ImageUrl,Price,PubId,PubDate")] Title title)
         {
             var uploadedFiles = HttpContext.Request.Form.Files;
@@ -166,6 +172,7 @@ namespace BookMarket.Controllers
         }
 
         // GET: Titles/Delete/5
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Delete(Guid? id)
         {
             if (id == null) return NotFound();
@@ -182,6 +189,7 @@ namespace BookMarket.Controllers
         // POST: Titles/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
             var title = await _context.Titles.FindAsync(id);

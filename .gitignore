@@ -15,8 +15,6 @@ obj/
 *.sln.docstates
 .vs/
 
-## Entity Framework Core
-Migrations/
 
 ## Rider
 .idea/

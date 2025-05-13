@@ -15,6 +15,7 @@ namespace BookMarket.Data
         public DbSet<Sale> Sales { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -38,6 +39,11 @@ namespace BookMarket.Data
                 .WithMany(a => a.Titles)
                 .HasForeignKey(t => t.AuthId)
                 .OnDelete(DeleteBehavior.Cascade);
+        }
+
+        internal async Task SaveChangesasync()
+        {
+            throw new NotImplementedException();
         }
     }
 }

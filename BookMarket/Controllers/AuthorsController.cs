@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BookMarket.Data;
 using BookMarket.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BookMarket.Controllers
 {
@@ -20,12 +21,14 @@ namespace BookMarket.Controllers
         }
 
         // GET: Authors
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Authors.ToListAsync());
         }
 
         // GET: Authors/Details/5
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Details(Guid? id)
         {
             if (id == null)
@@ -44,6 +47,7 @@ namespace BookMarket.Controllers
         }
 
         // GET: Authors/Create
+        [Authorize(Roles = "admin")]
         public IActionResult Create()
         {
             return View();
@@ -54,6 +58,7 @@ namespace BookMarket.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Create([Bind("AuthName,PhoneNumber,Address")] Author author)
         {
             if (ModelState.IsValid)
@@ -68,6 +73,7 @@ namespace BookMarket.Controllers
         }
 
         // GET: Authors/Edit/5
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(Guid? id)
         {
             if (id == null)
@@ -88,6 +94,7 @@ namespace BookMarket.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Edit(Guid id, [Bind("AuthId,AuthName,PhoneNumber,Address")] Author author)
         {
             if (id != author.AuthId)
@@ -115,6 +122,7 @@ namespace BookMarket.Controllers
         }
 
         // GET: Authors/Delete/5
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Delete(Guid? id)
         {
             if (id == null)
@@ -135,6 +143,7 @@ namespace BookMarket.Controllers
         // POST: Authors/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
             var author = await _context.Authors.FindAsync(id);

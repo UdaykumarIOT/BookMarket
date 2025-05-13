@@ -1,16 +1,45 @@
-﻿@model List<CartItem>
-<h2>Your Cart</h2>
-<table class="table">
-    <thead><tr><th>Title</th><th>Qty</th><th>Action</th></tr></thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+﻿@model IEnumerable<CartItem>
+
+<h4>Your Cart</h4>
+@if (Model.Count() > 0)
+{
+    <table class="table table-bordered table-striped">
+        <thead>
             <tr>
-                <td>@item.Title.Name</td>
-                <td>@item.Quantity</td>
-                <td><a href="/Cart/Remove/@item.TitleId" class="btn btn-danger">Remove</a></td>
+                <th>Title</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th class="text-center">Actions</th>
             </tr>
-        }
-    </tbody>
-</table>
-<a href="/Cart/Checkout" class="btn btn-success">Proceed to Checkout</a>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Title.Name</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Title.Price</td>
+                    <td>@(item.Quantity * item.Title.Price)</td>
+                    <td class="text-center">
+                        <a href="@Url.Action("Remove", "Cart", new { id = item.TitleId })"
+                           class="btn btn-danger">Remove</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h5 class="mb-3">Total: <span class="fw-bold">@Model.Sum(x => x.Quantity * x.Title.Price)</span></h5>
+    <a href="@Url.Action("Checkout", "Cart")" class="btn btn-info">Checkout</a>
+}
+else
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center text-uppercase text-warning pt-4">No Books in Your Cart</h2>
+            </div>
+        </div>
+    </div>
+}

@@ -1,6 +1,9 @@
 ﻿@model decimal
-<h2>Checkout</h2>
-<p>Total: <strong>@Model</strong></p>
-<form method="post" action="/Cart/CheckoutConfirm">
-    <button type="submit" class="btn btn-primary">Pay with Dummy Payment</button>
+
+<h4>Checkout</h4>
+
+<h5 class="mb-3">Total: <span class="fw-bold">@Model</span></h5>
+
+<form method="post" asp-action="CheckoutConfirm">
+    <button type="submit" class="btn btn-primary">Confirm Order</button>
 </form>
